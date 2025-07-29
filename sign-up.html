@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    body {
+      background-color: whitesmoke;
+    }
+    header{
+      width: 100vw;
+      height: 130px;
+      background: linear-gradient(180deg, rgb(0,90,150), rgb(0,120,200));
+      text-align: center;
+      color: white;
+      font-size: 50px;
+      & h1 {
+        padding-bottom: 50px;
+      }
+      & img.icon {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+      }
+      & img.icon2{
+        position: absolute;
+        top: 25px;
+        left: 35px;
+    
+      }
+    }
+    section.navigation {
+      margin: 2px;
+      text-align: center;
+      background: linear-gradient(180deg, rgb(0,90,150), rgb(0,120,200));
+      font-size: 30px;
+      color: white;
+      width: 100vw;
+      & [href="sign-up.html"] {
+      background-color: cadetblue;
+      padding-bottom: 7px;
+      border-radius: 50px;
+    }
+    }
+    section.navigation a {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    span{
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      background-color: royalblue;
+      padding:10px 350px 20px 350px;
+      border-radius: 90px 90px 0px 0px;
+      margin-top: 200;
+    
+    }
+    form {
+      background-color: rgba(0,0,255,0.1);
+      padding-top: 20px;
+      font-size: 35px;
+      margin-top: 0px;
+      width: 93%;
+      border-radius: 0px 0px 30px 30px ;
+    }
+    .error {
+      color: orangered;
+    }
+    form input {
+      border-radius: 30px;
+      font-size: 35px;
+      text-align: center;
+      padding-bottom: 10px;
+      width: 400px;
+      padding-top: 10px;
+    }
+    form label {
+      margin-right: 30px;
+      padding-left: 20px;
+    }
+    select {
+      width: 400px;
+      font-size: 35px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Digibuy</h1>
+    <img class="icon" src="https://i.postimg.cc/QdGctjKS/file-000000006ddc6246810173664615eb17.png" alt="" width="100">
+    <img class="icon2" src="https://i.postimg.cc/7LT3YbmB/file-0000000098606246921313d977565fd6-1.png" alt="" width="60">
+  </header>
+  <hr>
+  <section class="navigation">
+    <a href="index-8 (1).html">خانه</a>
+    <label> | </label>
+    <a href="contact.html">ارتباط با ما</a
+    <label> | </label>
+    <a href="sign-in.html">ثبت نام / ورود</a>
+    <label> | </label>
+    <a href="basket.html">سبد خرید</a>
+    <label> | </label>
+    <a href="about.html">درباره ما</a>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+    <span>
+      فرم ثبت نام
+    </span>
+  </center>
+  <center>
+    <form>
+      <label style="margin-right: 160px;"><b class="error">*</b>نام و نام خانوادگی : </label>
+      <input type="text" placeholder="احسان قادری">
+      <br>
+      <br>
+      <label><b class="error">*</b>شماره موبایل خود را وارد نمایید</label>
+      <input type="te" placeholder="+989379359566">
+      <br>
+      <br>
+      <label style="margin-right: 120px;"><b class="error">*</b>ایمیل خود را وارد نمایید</label>
+      <input type="email" placeholder="info@gmail.com">
+      <br>
+      <br>
+      <label style="margin-right: 100px;"><b class="error">*</b>کد ملی خود را وارد نمایید</label>
+      <input type="number" placeholder="1301100100">
+      <br>
+      <br>
+      <label style="margin-right: 300px;"><b class="error">*</b>جنسیت :</label>
+      <select>
+        <option value="">انتخاب</option>
+        <option value="">مذکر</option>
+        <option value="">مونث</option>
+      </select>
+      <br>
+      <br>
+      <label style="margin-right: 110px;">رمز عبور خود را وارد کنید :</label>
+      <input type="password" placeholder="Aa123">
+      <br>
+      <br>
+      <label style="margin-right: 40px;">رمز عبور خود را مجددا وارد کنید :</label>
+      <input type="password" placeholder="Aa123">
+      <br>
+      <br>
+      <hr style="height: 2px; background-color: royalblue;">
+      
+      <button type="submit" style="width: 700px; margin-bottom: 20px; font-size: 30px; margin-top: 20px; background-color: royalblue; color: white; border-radius: 30px;">ثبت نام</button>
+    </form>
+  </center>
+ 
+</body>
+
+</html>
